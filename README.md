@@ -19,7 +19,7 @@
 
 # Pratices
 * Install DragonOS 29 or 30 for USRP 
-* Create fake bts with more specifications
+* Create fake bts with more specifications [demos](https://www.youtube.com/watch?v=fQSu9cBaojc&pp=ugMICgJmchABGAHKBRRjaHJpcyBwYWdldCArIGRlZmNvbg%3D%3D) [pdf_en]() [pdf_fr]()
 * Open ciphering (A5/0)
 * Configure power as big as possible or use power amplifier
 * MCC, MNC, band, arfcn, short name and long name like the operator (use network signal guru to find the configuration)
