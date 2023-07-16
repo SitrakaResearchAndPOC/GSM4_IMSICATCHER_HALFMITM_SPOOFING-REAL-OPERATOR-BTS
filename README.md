@@ -27,7 +27,7 @@
 * Use jamming or redirection attack for more advanced attack
 * creating selective denied of service attack (imsi) by using lur (location update reject) [demos](https://www.youtube.com/watch?v=OcYl_NH_e4E&t=436s) [pdf]
 ()
-* Proposition of solution :
+# Proposition of solution :
 In openbsc.cfg
 ```
 network country code 001
