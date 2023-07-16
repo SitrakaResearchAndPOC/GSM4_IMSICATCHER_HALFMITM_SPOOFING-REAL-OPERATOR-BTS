@@ -25,8 +25,11 @@
 * MCC, MNC, band, arfcn, short name and long name like the operator (use network signal guru to find the configuration)
 * LAC not like the operator (the phone think it makes handover)
 * Use jamming or redirection attack for more advanced attack
-* creating selective denied of service attack (imsi) by using lur (location update reject) [demos](https://www.youtube.com/watch?v=OcYl_NH_e4E&t=436s) [pdf]
-()
+* creating selective denied of service attack (imsi) by using lur (location update reject) [demos](https://www.youtube.com/watch?v=OcYl_NH_e4E&t=436s) [pdf](https://github.com/SitrakaResearchAndPOC/GSM5_IMSICATCHER_HALFMITM_SPOOFING-REAL-OPERATOR-BTS/blob/main/Nuevos%20escenarios%20de%20ataque%20con%20estaci%C3%B3n%20base%20falsa%20GSM_GPRS.pdf)
+<p align="center">
+  <img src="https://github.com/SitrakaResearchAndPOC/GSM5_IMSICATCHER_HALFMITM_SPOOFING-REAL-OPERATOR-BTS/blob/main/lur_gsm_dangereous.jpg">
+</p>
+
 # Proposition of solution :
 In openbsc.cfg
 ```
@@ -42,5 +45,10 @@ In osmo-bts.cfg
 ```
 band 1900
 ```
+For denied of service change location update reject cause, the default cause is numbered 13
+```
+location updating reject cause 13
+```
+
 
 
