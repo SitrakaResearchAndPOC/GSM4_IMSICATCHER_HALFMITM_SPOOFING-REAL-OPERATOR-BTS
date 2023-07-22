@@ -7,6 +7,11 @@
   <img width="600" height="400" src="https://github.com/SitrakaResearchAndPOC/GSM_IMSICATCHER_HALFMITM_SPOOFING-SMS-WITH-PHYSICAL-MS/blob/main/2G.jpg">
 </p>
 
+# Protocol flow
+<p align="center">
+  <img src="https://github.com/SitrakaResearchAndPOC/GSM5_IMSICATCHER_HALFMITM_SPOOFING-REAL-OPERATOR-BTS/blob/main/imsi-catcher-volte.jpg">
+</p>
+
 # Why it is possible ?
 * Fake base station with open ciphering named A5/0, and spoof real operator network; the  network could be GSM(sms, call), and GPRS, EDGE
 
